@@ -5,10 +5,10 @@ const connectDB = require('./config/db');
 require('dotenv').config();
 
 // Import routes
-const userRoutes = require('./backend/routes/userRoutes');
-const groupRoutes = require('./backend/routes/groupRoutes');
-const expenseRoutes = require('./backend/routes/expenseRoutes');
-const authRoutes = require('./backend/routes/auth');
+const userRoutes = require('../backend/routes/userRoutes');
+const groupRoutes = require('../backend/routes/groupRoutes');
+const expenseRoutes = require('../backend/routes/expenseRoutes');
+const authRoutes = require('../backend/routes/auth');
 
 const app = express();
 
